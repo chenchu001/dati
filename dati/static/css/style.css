@@ -1,0 +1,38 @@
+html,body{height:100%;}
+.indexBg,.startBg,.errorBg,.danxuanBg{background:url(../images/indexBg.jpg) no-repeat;width:100%;height:100%;background-size:100% 100%;position:relative;overflow:hidden;}
+.indexBg .indexBtn,.startBtn{background:url(../images/indexBtn.png) no-repeat;width:9.222222rem;height:2.537037rem;background-size:100% 100%;display:block;position:absolute;left:50%;margin-left:-4.6rem;top:73.33%;}
+.startBg{background:url(../images/startBg.jpg) no-repeat;background-size:100% 100%;}
+.startBtn{background:url(../images/startBtn.png) no-repeat;background-size:100% 100%;}
+.stratWrap{width:14.814815rem;height:51.2%;background:#fff;border-radius:10px;margin-left:2.407407rem;top:20%;position:absolute;}
+.stratWrap h3{text-align:center;text-align:center;font-size:1.2rem;font-weight:700;padding:5% 0;}
+.stratWrap .textInfo{padding:0 0.33rem;}
+.stratWrap .textInfo span{line-height:170%;font-size:0.833333rem;display:block;}
+.errorBg{background:url(../images/errorBg.jpg) no-repeat;background-size:100% 100%;}
+.errorBg .errorText{width:14.074074rem;position:absolute;top:35.8%;left:50%;margin-left:-7rem;}
+.errorBg .errorText h3{width:100%;text-align:center;font-size:1.481481rem;color:#e73131;font-weight:700;margin-bottom:2%;}
+.errorBg .errorText p{font-size:0.925926rem;font-weight:bold;color:#e73131;}
+.danxuanBg{background:url(../images/danxuan.jpg) no-repeat;background-size:100% 100%;}
+.danxuanBg .danxuanWrap,.zhenbieWrap,.duoxuanWrap{width:17.5rem;margin:16.15% auto 0;}
+.danxuanBg .danxuanWrap p,.zhenbieWrap p,.duoxuanWrap p{padding-left:0.2rem;font-size:0.9rem;}
+.danxuanBg .danxuanWrap p b,.zhenbieWrap p b,.duoxuanWrap p b{margin-right:0.3rem;}
+.checkQuesition li input[type="radio"]{display:none;}
+.checkQuesition li label,.duoxuanQuesition li label{background:url(../images/check.png) no-repeat left center;background-size:1.37037rem 1.37037rem;padding-left:2.251852rem;display:inline-block;height:1.37037rem;font-size:0.8rem;line-height:1.37037rem;}
+.checkQuesition li{margin-bottom:2.6%;}
+.checkQuesition li:first-child{margin-top:7.3%;}
+.checkQuesition li label.checked,.duoxuanQuesition li label.checked{background:url(../images/checkActive.png) no-repeat;background-size:1.37037rem 1.37037rem;}
+a.nextBtn{background:url(../images/nextBtn.png) no-repeat;width:9.222222rem;height:2.537037rem;background-size:100% 100%;position:absolute;left:50%;margin-left:-4.6rem;top:90.625%;}
+.zhenbieWrap .checkQuesition{margin-left:3.055556rem;}
+.zhenbieWrap .checkQuesition li:first-child{margin-top:3.148148rem;}
+
+/*多选投票*/
+.duoxuanQuesition li input[type="checkBox"]{opacity:0;}
+.duoxuanQuesition li{margin-bottom:2.6%;}
+.duoxuanQuesition li:first-child{margin-top:7.3%;}
+
+/*填空题*/
+.textWrap{background:url(../images/textWrap.png) no-repeat;width:18.925926rem;height:16.944444rem;background-size:100% 100%;position:absolute;left:50%;margin-left:-9.451rem;top:24.17%;}
+.textWrap .text{width:13.518519rem;margin-top:3.333333rem;margin-left:3.1rem;}
+.textWrap .text h5{font-size:0.888889rem;color:#e73131;}
+.textWrap .text textarea{width:100%;height:7.962963rem;border:1px solid #ddd;border-radius:10px;margin-top:0.5rem;padding:5px;font-size:0.740741rem;}
+a.tijiaoBtn{background:url(../images/tijiaoBtn.png) no-repeat;width:3.907407rem;height:1.333333rem;background-size:100% 100%;display:block;text-align:right;margin-top:0.3rem;}
+.tiankongBg{background:url(../images/tiankongBg.jpg) no-repeat;background-size:100% 100%;}
